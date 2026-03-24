@@ -952,6 +952,121 @@ h1{font-size:10px;letter-spacing:.12em;color:#f8c040;margin-bottom:60px;text-sha
 </div>
 </div>
 
+<!-- ══ ROW 8: NEW CREATIVE SLIDERS 16-20 ══ -->
+<div class="row">
+
+<div class="sw">
+<div class="lbl">16 - HONEY TRAIL</div>
+<div class="pbar" id="honeyTrack" style="width:340px;height:16px;margin-top:60px">
+  <div style="position:absolute;inset:-3px;border:3px solid #444860"></div>
+  <div style="position:absolute;inset:0;background:#0a0a18"></div>
+  <div style="position:absolute;inset:0;overflow:hidden">
+    <div id="honeyFill" style="width:22%;height:100%;background:linear-gradient(90deg,#c08020,#f0c840,#f8d860);background-size:8px 100%"></div>
+  </div>
+  <div id="honeyParticles" style="position:absolute;top:-56px;left:0;right:0;height:56px;pointer-events:none;overflow:visible"></div>
+  <svg id="honeyChar" style="position:absolute;top:-70px;left:0;pointer-events:none;image-rendering:pixelated;overflow:visible" width="52" height="52" viewBox="0 0 14 14">
+    <rect x="2" y="2" width="10" height="10" fill="#f0b830"/>
+    <rect x="2" y="2" width="10" height="2" fill="#c08818"/>
+    <rect x="2" y="5" width="10" height="2" fill="#c08818"/>
+    <rect x="2" y="8" width="10" height="2" fill="#c08818"/>
+  </svg>
+  <div class="pct" id="honeyPct" style="left:22%">22%</div>
+</div>
+</div>
+
+<div class="sw">
+<div class="lbl">17 - MAGNET PULL</div>
+<div class="pbar" id="magnetTrack" style="width:340px;height:16px;margin-top:60px">
+  <div style="position:absolute;inset:-3px;border:3px solid #444860"></div>
+  <div style="position:absolute;inset:0;background:#0a0a18"></div>
+  <div style="position:absolute;inset:0;overflow:hidden">
+    <div id="magnetFill" style="width:50%;height:100%;background:linear-gradient(90deg,#5080e0,#80b0ff);background-size:8px 100%"></div>
+  </div>
+  <div id="magnetAura" style="position:absolute;top:-54px;left:0;right:0;height:58px;pointer-events:none;overflow:visible"></div>
+  <svg id="magnetChar" style="position:absolute;top:-70px;left:0;pointer-events:none;image-rendering:pixelated;overflow:visible" width="48" height="48" viewBox="0 0 12 12">
+    <rect x="2" y="1" width="8" height="10" fill="#d05080"/>
+    <rect x="2" y="1" width="2" height="4" fill="#f8d0f0"/>
+    <rect x="8" y="1" width="2" height="4" fill="#f8d0f0"/>
+  </svg>
+  <div class="pct" id="magnetPct" style="left:50%">50%</div>
+</div>
+</div>
+
+<div class="sw">
+<div class="lbl">18 - WIND PUSH</div>
+<div class="pbar" id="windTrack" style="width:340px;height:16px;margin-top:60px">
+  <div style="position:absolute;inset:-3px;border:3px solid #444860"></div>
+  <div style="position:absolute;inset:0;background:#0a0a18"></div>
+  <div style="position:absolute;inset:0;overflow:hidden">
+    <div id="windFill" style="width:50%;height:100%;background:linear-gradient(90deg,#70a0e0,#a0d0ff);background-size:8px 100%"></div>
+  </div>
+  <div id="windParticles" style="position:absolute;top:-56px;left:0;right:0;height:56px;pointer-events:none;overflow:visible"></div>
+  <svg id="windChar" style="position:absolute;top:-70px;left:0;pointer-events:none;image-rendering:pixelated;overflow:visible" width="44" height="24" viewBox="0 0 11 6">
+    <rect x="0" y="2" width="11" height="2" fill="#d0f0ff" opacity=".8"/>
+    <rect x="2" y="0" width="5" height="2" fill="#a0cff8"/>
+  </svg>
+  <div class="pct" id="windPct" style="left:50%">50%</div>
+</div>
+</div>
+
+<div class="sw">
+<div class="lbl">19 - TUG-OF-WAR</div>
+<div class="pbar" id="tugTrack" style="width:340px;height:16px;margin-top:60px">
+  <div style="position:absolute;inset:-3px;border:3px solid #444860"></div>
+  <div style="position:absolute;inset:0;background:#0a0a18"></div>
+  <div style="position:absolute;inset:0;overflow:hidden">
+    <div id="tugFill" style="width:50%;height:100%;background:linear-gradient(90deg,#d03050,#f06070);background-size:8px 100%"></div>
+  </div>
+  <div id="tugLine" style="position:absolute;top:-30px;left:0;right:0;height:20px;pointer-events:none;overflow:visible"></div>
+  <div class="pct" id="tugPct" style="left:50%">50%</div>
+</div>
+</div>
+
+<div class="sw">
+<div class="lbl">20 - PAINT BRUSH</div>
+<div class="pbar" id="paintTrack" style="width:340px;height:16px;margin-top:24px">
+  <div style="position:absolute;inset:-3px;border:3px solid #444860"></div>
+  <div style="position:absolute;inset:0;background:#0a0a18"></div>
+  <div style="position:absolute;inset:0;overflow:hidden">
+    <div id="paintFill" style="width:30%;height:100%;background:linear-gradient(90deg,#9060f8,#b090ff);background-size:8px 100%"></div>
+  </div>
+  <canvas id="paintCanvas" style="position:absolute;inset:0;pointer-events:none;" width="340" height="16"></canvas>
+  <div class="pct" id="paintPct" style="left:30%">30%</div>
+</div>
+</div>
+
+</div>
+
+<!-- ══ ROW 9: EXTRA SLIDERS 21-25 ══ -->
+<div class="row">
+
+<div class="sw"><div class="lbl">21 - STICKY</div><div class="pbar" id="stickyTrack" style="width:260px;height:16px;margin-top:60px"><div style="position:absolute;inset:-3px;border:3px solid #444860"></div><div style="position:absolute;inset:0;background:#0a0a18"></div><div style="position:absolute;inset:0;overflow:hidden"><div id="stickyFill" style="width:40%;height:100%;background:linear-gradient(90deg,#a05030,#d07040);background-size:8px 100%"></div></div><div class="pct" id="stickyPct" style="left:40%">40%</div></div></div>
+
+<div class="sw"><div class="lbl">22 - ICE SLIDE</div><div class="pbar" id="iceTrack" style="width:260px;height:16px;margin-top:60px"><div style="position:absolute;inset:-3px;border:3px solid #444860"></div><div style="position:absolute;inset:0;background:#0a0a18"></div><div style="position:absolute;inset:0;overflow:hidden"><div id="iceFill" style="width:55%;height:100%;background:linear-gradient(90deg,#70d0f8,#a0f0ff);background-size:8px 100%"></div></div><div class="pct" id="icePct" style="left:55%">55%</div></div></div>
+
+<div class="sw"><div class="lbl">23 - GRAVITY</div><div class="pbar" id="gravityTrack" style="width:260px;height:16px;margin-top:60px"><div style="position:absolute;inset:-3px;border:3px solid #444860"></div><div style="position:absolute;inset:0;background:#0a0a18"></div><div style="position:absolute;inset:0;overflow:hidden"><div id="gravityFill" style="width:20%;height:100%;background:linear-gradient(90deg,#6080b0,#8098d0);background-size:8px 100%"></div></div><div class="pct" id="gravityPct" style="left:20%">20%</div></div></div>
+
+<div class="sw"><div class="lbl">24 - SLITHER</div><div class="pbar" id="slitherTrack" style="width:260px;height:16px;margin-top:60px"><div style="position:absolute;inset:-3px;border:3px solid #444860"></div><div style="position:absolute;inset:0;background:#0a0a18"></div><div style="position:absolute;inset:0;overflow:hidden"><div id="slitherFill" style="width:33%;height:100%;background:linear-gradient(90deg,#40a060,#60c080);background-size:8px 100%"></div></div><div class="pct" id="slitherPct" style="left:33%">33%</div></div></div>
+
+<div class="sw"><div class="lbl">25 - NEON SHIFT</div><div class="pbar" id="neonTrack" style="width:260px;height:16px;margin-top:60px"><div style="position:absolute;inset:-3px;border:3px solid #444860"></div><div style="position:absolute;inset:0;background:#0a0a18"></div><div style="position:absolute;inset:0;overflow:hidden"><div id="neonFill" style="width:64%;height:100%;background:linear-gradient(90deg,#ff40d0,#40f0d0);background-size:8px 100%"></div></div><div class="pct" id="neonPct" style="left:64%">64%</div></div></div>
+
+</div>
+
+<!-- ══ ROW 10: VERTICAL EXTRA SLIDERS 26-30 ══ -->
+<div class="row" style="align-items:flex-end">
+
+<div class="sw"><div class="lbl">26 - PULSE</div><div class="vscene" id="pulseTrack" style="width:90px;height:240px;background:#203050"><div style="position:absolute;inset:0;overflow:hidden"><div style="position:absolute;top:0;left:0;right:0;height:100%;background:linear-gradient(180deg,#4060b0,#203050);"></div></div><div style="position:absolute;left:50%;top:8px;bottom:8px;width:8px;pointer-events:none"><div style="position:absolute;inset:-2px;border:2px solid #303848"></div><div style="position:absolute;inset:0;background:#0a0a18"></div><div id="pulseFill" style="position:absolute;bottom:0;left:0;right:0;background:#f87080"></div></div></div><div id="pulsePct" style="font-size:6px;color:#6870a0;margin-top:14px">0%</div></div>
+
+<div class="sw"><div class="lbl">27 - FOG</div><div class="vscene" id="fogTrack" style="width:90px;height:240px;background:#304050"><div id="fogLayer" style="position:absolute;inset:0;pointer-events:none;opacity:.2;background:linear-gradient(180deg,rgba(255,255,255,.4),rgba(128,160,180,.25));"></div><div style="position:absolute;left:50%;top:8px;bottom:8px;width:8px;pointer-events:none"><div style="position:absolute;inset:-2px;border:2px solid #303848"></div><div style="position:absolute;inset:0;background:#0a0a18"></div><div id="fogFill" style="position:absolute;bottom:0;left:0;right:0;background:#88a0c0"></div></div></div><div id="fogPct" style="font-size:6px;color:#6870a0;margin-top:14px">0%</div></div>
+
+<div class="sw"><div class="lbl">28 - SPARK</div><div class="vscene" id="sparkTrack" style="width:90px;height:240px;background:#102020"><div id="sparkLayer" style="position:absolute;inset:0;pointer-events:none;overflow:hidden"></div><div style="position:absolute;left:50%;top:8px;bottom:8px;width:8px;pointer-events:none"><div style="position:absolute;inset:-2px;border:2px solid #303848"></div><div style="position:absolute;inset:0;background:#0a0a18"></div><div id="sparkFill" style="position:absolute;bottom:0;left:0;right:0;background:#e0f0b0"></div></div></div><div id="sparkPct" style="font-size:6px;color:#6870a0;margin-top:14px">0%</div></div>
+
+<div class="sw"><div class="lbl">29 - DRIP</div><div class="vscene" id="dripTrack" style="width:90px;height:240px;background:#281818"><div id="dripLayer" style="position:absolute;inset:0;pointer-events:none;overflow:hidden"></div><div style="position:absolute;left:50%;top:8px;bottom:8px;width:8px;pointer-events:none"><div style="position:absolute;inset:-2px;border:2px solid #303848"></div><div style="position:absolute;inset:0;background:#0a0a18"></div><div id="dripFill" style="position:absolute;bottom:0;left:0;right:0;background:#6080d0"></div></div></div><div id="dripPct" style="font-size:6px;color:#6870a0;margin-top:14px">0%</div></div>
+
+<div class="sw"><div class="lbl">30 - NEON RUSH</div><div class="vscene" id="neonVTrack" style="width:90px;height:240px;background:#101030"><div style="position:absolute;inset:0;overflow:hidden"></div><div style="position:absolute;left:50%;top:8px;bottom:8px;width:8px;pointer-events:none"><div style="position:absolute;inset:-2px;border:2px solid #303848"></div><div style="position:absolute;inset:0;background:#0a0a18"></div><div id="neonVFill" style="position:absolute;bottom:0;left:0;right:0;background:#40f090"></div></div></div><div id="neonVPct" style="font-size:6px;color:#6870a0;margin-top:14px">0%</div></div>
+
+</div>
+
 <div style="font-size:7px;color:#505870;margin-top:52px;letter-spacing:.1em">PRESS DRAG TO PLAY</div>
 
 <script>
@@ -1288,6 +1403,75 @@ function updateSf(p){
   rec(.35);
 }
 updateSf(0);vDrag(sunflowerTrack_,p=>updateSf(p));
+
+// ── New extra slider behaviors (16-30) ──
+function clamp(v){return Math.max(0,Math.min(1,v));}
+function rnd(min,max){return Math.random()*(max-min)+min;}
+
+/* HONEY */
+const honeyTrack=document.getElementById('honeyTrack'),honeyFill=document.getElementById('honeyFill'),honeyPct=document.getElementById('honeyPct');
+const honeyChar=document.getElementById('honeyChar'),honeyParticles=document.getElementById('honeyParticles');
+let honeyVal=.22,honeyTarget=.22,honeyVel=0,honeyDown=false;
+function spawnHoneyDrop(x){const d=document.createElement('div');d.style.cssText=`position:absolute;width:6px;height:6px;background:#f0c040;border:1px solid #c09018;border-radius:50%;left:${x}px;top:0;opacity:.9;animation: pxFloat .8s steps(8,end) forwards;pointer-events:none;image-rendering:pixelated`;honeyParticles.appendChild(d);setTimeout(()=>d.remove(),900);}
+(function honeyLoop(){if(honeyDown){honeyVel+=(honeyTarget-honeyVal)*0.032;honeyVel*=.86; if(Math.random()<.06)spawnHoneyDrop(honeyVal*honeyTrack.offsetWidth);} else honeyVel*=.92;honeyVal=clamp(honeyVal+honeyVel);const hp=Math.round(honeyVal*100);honeyFill.style.width=hp+'%';honeyChar.style.left=`calc(${hp}% - 26px)`;honeyPct.style.left=hp+'%';honeyPct.textContent=hp+'%';requestAnimationFrame(honeyLoop);})();
+[honeyTrack].forEach(el=>{el.addEventListener('mousedown',()=>honeyDown=true);el.addEventListener('touchstart',()=>honeyDown=true,{passive:true});});
+document.addEventListener('mouseup',()=>honeyDown=false);document.addEventListener('touchend',()=>honeyDown=false);
+hDrag(honeyTrack,p=>{honeyTarget=p;rec(.2);});
+
+/* MAGNET */
+const magnetTrack=document.getElementById('magnetTrack'),magnetFill=document.getElementById('magnetFill'),magnetPct=document.getElementById('magnetPct');
+const magnetChar=document.getElementById('magnetChar'),magnetAura=document.getElementById('magnetAura');
+let magnetVal=.5,magnetTarget=.5,magnetVel=0,magnetDown=false;
+function burstMagnet(){if(Math.random()<.12){const b=document.createElement('div');const x=magnetVal*magnetTrack.offsetWidth;const s=(Math.floor(Math.random()*3)+1)*2;const dir=(Math.random()<.5?-1:1);b.style.cssText=`position:absolute;width:${s}px;height:${s}px;border:1px solid rgba(255,255,255,.8);background:rgba(160,210,255,.65);left:${x}px;top:${-10+Math.round(Math.random()*10)}px;transform:translateX(${dir*4}px);animation:pxFloat .7s steps(8,end) forwards;pointer-events:none;image-rendering:pixelated`;magnetAura.appendChild(b);setTimeout(()=>b.remove(),700);} }
+(function magnetLoop(){const pull=(magnetVal>0.5?0.018:-0.018);if(magnetDown)magnetVel+=(magnetTarget-magnetVal)*.28;magnetVel+=pull;magnetVel*=.76;magnetVal=clamp(magnetVal+magnetVel);const mp=Math.round(magnetVal*100);magnetFill.style.width=mp+'%';magnetChar.style.left=`calc(${mp}% - 24px)`;magnetPct.style.left=mp+'%';magnetPct.textContent=mp+'%';magnetChar.style.transform=`rotate(${(magnetVel*45)}deg)`;burstMagnet();requestAnimationFrame(magnetLoop);})();
+[magnetTrack].forEach(el=>{el.addEventListener('mousedown',()=>magnetDown=true);el.addEventListener('touchstart',()=>magnetDown=true,{passive:true});});document.addEventListener('mouseup',()=>magnetDown=false);document.addEventListener('touchend',()=>magnetDown=false);
+hDrag(magnetTrack,p=>{magnetTarget=p;rec(.28);});
+
+/* WIND */
+const windTrack=document.getElementById('windTrack'),windFill=document.getElementById('windFill'),windPct=document.getElementById('windPct');
+const windChar=document.getElementById('windChar'),windParticles=document.getElementById('windParticles');
+let windVal=.5,windTarget=.5,windVel=0,windDown=false,windTime=0;
+function spawnWindPulse(){const w=document.createElement('div');const y=Math.round(Math.random()*8);w.style.cssText=`position:absolute;width:18px;height:2px;background:rgba(224,248,255,.8);left:${Math.round(Math.random()*90)}%;top:${y}px;pointer-events:none;animation:pxFloat .7s steps(6,end) forwards;image-rendering:pixelated`;windParticles.appendChild(w);setTimeout(()=>w.remove(),800);}
+(function windLoop(){windTime++;const gust=Math.sin(windTime*0.12)*0.03; if(windDown){windVel+=(windTarget-windVal)*.14;} windVel-=gust;windVel*=.85;windVal=clamp(windVal+windVel);const wp=Math.round(windVal*100);windFill.style.width=wp+'%';windChar.style.left=`calc(${wp}% - 20px)`;windPct.style.left=wp+'%';windPct.textContent=wp+'%';windChar.style.opacity=String(.6+.4*Math.abs(gust)*2);if(Math.random()<.1)spawnWindPulse();requestAnimationFrame(windLoop);})();
+[windTrack].forEach(el=>{el.addEventListener('mousedown',()=>windDown=true);el.addEventListener('touchstart',()=>windDown=true,{passive:true});});document.addEventListener('mouseup',()=>windDown=false);document.addEventListener('touchend',()=>windDown=false);
+hDrag(windTrack,p=>{windTarget=p;rec(.3);});
+
+/* TUG OF WAR */
+const tugTrack=document.getElementById('tugTrack'),tugFill=document.getElementById('tugFill'),tugPct=document.getElementById('tugPct');
+let tugVal=.5,tugTarget=.5,tugDown=false;
+function tugLoop(){let move=0; if(tugDown){move+=(tugTarget-tugVal)*.24;} const resistance=(0.5-tugVal)*.16;const friction=(Math.random()-.5)*.008;tugVal=clamp(tugVal+move+resistance+friction);const tp=Math.round(tugVal*100);tugFill.style.width=tp+'%';tugPct.style.left=tp+'%';tugPct.textContent=tp+'%';requestAnimationFrame(tugLoop);}tugLoop();
+[ tugTrack ].forEach(el=>{el.addEventListener('mousedown',()=>tugDown=true);el.addEventListener('touchstart',()=>tugDown=true,{passive:true});});document.addEventListener('mouseup',()=>tugDown=false);document.addEventListener('touchend',()=>tugDown=false);
+hDrag(tugTrack,p=>{tugTarget=p;rec(.26);});
+
+/* PAINT BRUSH */
+const paintTrack=document.getElementById('paintTrack'),paintFill=document.getElementById('paintFill'),paintPct=document.getElementById('paintPct');
+const paintCanvas=document.getElementById('paintCanvas');const paintCtx=paintCanvas.getContext('2d');paintCtx.imageSmoothingEnabled=false;
+let paintVal=.30,paintLast=.30,paintDown=false;
+function paintHold(){paintPct.textContent=Math.round(paintVal*100)+'%';paintPct.style.left=Math.round(paintVal*100)+'%';paintFill.style.width=Math.round(paintVal*100)+'%';}
+function paintStroke(target){const x0=paintLast*paintTrack.offsetWidth,x1=target*paintTrack.offsetWidth;const w=Math.max(1,12-Math.abs(target-paintLast)*50);const hue=Math.round(240-target*160);paintCtx.strokeStyle=`hsl(${hue},90%,65%)`;paintCtx.lineWidth=w;paintCtx.lineCap='round';paintCtx.beginPath();paintCtx.moveTo(x0,8);paintCtx.lineTo(x1,8);paintCtx.stroke();paintLast=target;}
+hDrag(paintTrack,p=>{paintDown=true;paintVal=p;paintStroke(p);paintHold();rec(.18);});
+[paintTrack].forEach(el=>{el.addEventListener('mousedown',()=>paintDown=true);el.addEventListener('touchstart',()=>paintDown=true,{passive:true});});document.addEventListener('mouseup',()=>paintDown=false);document.addEventListener('touchend',()=>paintDown=false);
+paintHold();
+
+/* 21-25 generic plus minor effect */
+const slides=['sticky','ice','gravity','slither','neon'];
+slides.forEach(id=>{const el=document.getElementById(id+'Track'),fill=document.getElementById(id+'Fill'),pct=document.getElementById(id+'Pct');let value=(id==='neon'?0.64: id==='ice'?0.55: id==='sticky'?0.4: id==='gravity'?0.2:0.33);const multiplier={sticky:.35,ice:.12,gravity:.2,slither:.08,neon:.2}[id];
+  function update(v){value=clamp(v+(id==='ice'?((0.5-value)*0.18):0));fill.style.width=Math.round(value*100)+'%';pct.style.left=Math.round(value*100)+'%';pct.textContent=Math.round(value*100)+'%';}
+  update(value);
+  hDrag(el,v=>{update(v);rec(multiplier);});
+});
+
+/* 26-30 vertical plus ambient effects */
+function vSlider(id,fillId,pctId,start,func){const track=document.getElementById(id),fill=document.getElementById(fillId),pct=document.getElementById(pctId);let val=start;vDrag(track,p=>{val=clamp(func?func(p,val):p);fill.style.height=Math.round(val*100)+'%';pct.textContent=Math.round(val*100)+'%';return val;});fill.style.height=Math.round(start*100)+'%';pct.textContent=Math.round(start*100)+'%';}
+vSlider('pulseTrack','pulseFill','pulsePct',0.12,p=>clamp(p+Math.sin(Date.now()*0.015)*.03));
+vSlider('fogTrack','fogFill','fogPct',0.28);
+vSlider('sparkTrack','sparkFill','sparkPct',0.22);
+(function sparkLoop(){const layer=document.getElementById('sparkLayer');if(Math.random()<.08){const s=document.createElement('div');s.style.cssText='position:absolute;width:4px;height:4px;background:#ffff80;left:'+rnd(20,70)+'%;top:'+rnd(10,220)+'px;animation:pxTwinkle .4s steps(2,end) forwards;pointer-events:none;image-rendering:pixelated';layer.appendChild(s);setTimeout(()=>s.remove(),450);}requestAnimationFrame(sparkLoop);}());
+vSlider('dripTrack','dripFill','dripPct',0.16);
+(function dripLoop(){const dr=document.getElementById('dripLayer');if(Math.random()<.1){const d=document.createElement('div');d.style.cssText='position:absolute;width:3px;height:3px;background:#88b0ff;left:'+rnd(15,75)+'%;top:2px;animation:pxRain .6s steps(4,end) forwards;pointer-events:none;image-rendering:pixelated';dr.appendChild(d);setTimeout(()=>d.remove(),620);}requestAnimationFrame(dripLoop);}());
+vSlider('neonVTrack','neonVFill','neonVPct',0.76);
+(function neonGlow(){const nv=document.getElementById('neonVFill');const alpha=0.5+Math.sin(Date.now()*0.03)*0.3;nv.style.background='rgba(64,240,144,'+alpha+')';requestAnimationFrame(neonGlow);}());
+
 </script>
 </body>
 </html>
