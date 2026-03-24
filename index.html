@@ -8,7 +8,7 @@
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
 body{
-  background:#0e0e1e;
+  background:#000000;
   font-family:'Press Start 2P',monospace;
   min-height:100vh;
   padding:56px 40px 100px;
@@ -69,37 +69,14 @@ h1{font-size:10px;letter-spacing:.12em;color:#f8c040;margin-bottom:60px;text-sha
 
 /* page background */
 body{
-  background:#0e0e1e;
+  background:#000000;
   position:relative;
   overflow-x:hidden;
 }
-body::before{
-  content:'';
-  position:fixed;
-  inset:0;
-  pointer-events:none;
-  z-index:0;
-  background-image:
-    linear-gradient(rgba(80,100,200,.06) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(80,100,200,.06) 1px,transparent 1px);
-  background-size:32px 32px;
-  animation:bgDrift 18s linear infinite, bgPulse 6s ease-in-out infinite;
-  image-rendering:pixelated;
-}
-body::after{
-  content:'';
-  position:fixed;
-  inset:0;
-  pointer-events:none;
-  z-index:0;
-  background-image:
-    linear-gradient(rgba(140,80,255,.04) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(140,80,255,.04) 1px,transparent 1px);
-  background-size:8px 8px;
-  opacity:.6;
-}
+
+
 h1, .row, .sw, .lbl, [style*="PRESS DRAG"]{position:relative;z-index:1;}
-#bgCanvas{position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.55;}
+#bgCanvas{display:none;}
 </style>
 </head>
 <body>
